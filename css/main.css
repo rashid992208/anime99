@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #202020;
+}
+
+@font-face{
+	font-family: RotateR;
+	src: url(..fonts/Roboto-Regular.ttf);
+}
+
+main{
+	width: 70%;
+	background-image: url(../image/fonOne.jpg);
+	padding: 50px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 25px 2px black;
+}
+
+/*.photo{
+	background: blue;
+}*/
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((95vw - 60px)/ 16*9);
+	/*width: 200px;*/
+	margin: 20px;
+	padding: 40px;
+	background: black;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 25px 10px black;
+	transition: all 0.4s ease-in-out;
+	border-radius: 10px;
+}
+
+h1{
+	text-align: center;
+	width: 100%;
+	font-size: 48px;
+	color: white;
+}
+
+h1:hover{
+	/*box-shadow: 0 0 10px 0.4px  yellow;
+	font-size: 400%;*/
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale( 1.1);
+	transform: scale(1.1);
+}
+
+.photo:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1) rotate(3deg);
+	border-radius: 10px;
+}
+
+
+.photo9{
+	background-image: url(../image/img9.jpg);
+}
+
+
+
+.photo30{
+	background-image: url(../image/img30.jpg);
+}
+
+.photo31{
+	background-image: url(../image/img31.jpg);
+}
+
+
+
+.photo33{
+	background-image: url(../image/img33.jpg);
+}
+
+
+
+
+
+.photo36{
+	background-image: url(../image/img36.jpg);
+}
+
+.photo38{
+	background-image: url(../image/img38.jpg);
+} 
+
+.photo39{
+	background-image: url(../image/img39.jpg);
+}
+
+.photo40{
+	background-image: url(../image/img40.jpg);
+}
+
+.photo41{
+	background-image: url(../image/img41.jpg);
+}
+
+.photo42{
+	background-image: url(../image/img42.jpg);
+}
+
+.photo43{
+	background-image: url(../image/img43.jpg);
+}
+
+.photo44{
+	background-image: url(../image/img44.jpg);
+}
+
+.photo45{
+	background-image: url(../image/img45.jpg);
+}
+
+.photo46{
+	background-image: url(../image/img46.jpg);
+}
+
+.photo47{
+	background-image: url(../image/img47.jpg);
+}
+
+.photo48{
+	background-image: url(../image/img48.jpg);
+}
+
+.photo49{
+	background-image: url(../image/img49.jpg);
+}
+
+.photo50{
+	background-image: url(../image/img50.jpg);
+}
+
+.photo51{
+	background-image: url(../image/img51.jpg);
+}
+
+.photo52{
+	background-image: url(../image/img52.jpg);
+}
+
+.photo53{
+	background-image: url(../image/img53.jpg);
+}
+
+.photo54{
+	background-image: url(../image/img54.jpg);
+}
+
+.photo55{
+	background-image: url(../image/img55.jpg);
+}
+
+.photo56{
+	background-image: url(../image/img56.jpg);
+}
+
+.photo57{
+	background-image: url(../image/img57.jpg);
+} 
+
+.photo58{
+	background-image: url(../image/img58.jpg);
+}
+
+.photo59{
+	background-image: url(../image/img59.jpg);
+}
+
+.photo60{
+	background-image: url(../image/img60.jpg);
+}
+
+.photo61{
+	background-image: url(../image/img61.jpg);
+}
+
+.photo62{
+	background-image: url(../image/img62.jpg);
+}
+
+.photo63{
+	background-image: url(../image/img63.jpg);
+}
+
+.photo64{
+	background-image: url(../image/img64.jpg);
+}
+
+.photo65{
+	background-image: url(../image/img65.jpg);
+}
+
+.photo66{
+	background-image: url(../image/img66.jpg);
+}
+
+.photo67{
+	background-image: url(../image/img67.jpg);
+}
+
+.photo68{
+	background-image: url(../image/img68.jpg);
+}
+
+.photo69{
+	background-image: url(../image/img69.jpg);
+}
+
+.photo70{
+	background-image: url(../image/img70.jpg);
+}
+
+.photo71{
+	background-image: url(../image/img71.jpg);
+}
+
+.photo72{
+	background-image: url(../image/img72.jpg);
+}
+
+.photo73{
+	background-image: url(../image/img73.jpg);
+}
+
+.photo74{
+	background-image: url(../image/img74.jpg);
+}
+
+.photo75{
+	background-image: url(../image/img75.jpg);
+}
+
+.photo76{
+	background-image: url(../image/img76.jpg);
+}
+
+.photo77{
+	background-image: url(../image/img77.jpg);
+}
+
+.photo78{
+	background-image: url(../image/img78.jpg);
+}
+
+.photo79{
+	background-image: url(../image/img79.jpg);
+}
+
+.photo80{
+	background-image: url(../image/img80.jpg);
+}
+
+.photo81{
+	background-image: url(../image/img81.jpg);
+}
+
+
+
+.photo83{
+	background-image: url(../image/img83.jpg);
+}
+
+.photo84{
+	background-image: url(../image/img84.jpg);
+}
+
+.photo85{
+	background-image: url(../image/img85.jpg);
+} 
+
+
+
+.photo87{
+	background-image: url(../image/img87.jpg);
+}
+
+.photo88{
+	background-image: url(../image/img88.jpg);
+}
+
+.photo89{
+	background-image: url(../image/img89.jpg);
+}
+
+.photo90{
+	background-image: url(../image/img90.jpg);
+}
+
+.photo91{
+	background-image: url(../image/img91.jpg);
+}
+
+.photo92{
+	background-image: url(../image/img92.jpg);
+}
+
+
+
+.photo94{
+	background-image: url(../image/img94.jpg);
+}
+
+.photo95{
+	background-image: url(../image/img95.jpg);
+}
+
+.photo96{
+	background-image: url(../image/img96.jpg);
+}
+
+.photo97{
+	background-image: url(../image/img97.jpg);
+}
+
+.photo98{
+	background-image: url(../image/img98.jpg);
+}
+
+.photo99{
+	background-image: url(../image/img99.jpg);
+}
+
+.photo100{
+	background-image: url(../image/img100.jpg);
+}
+
+.photo101{
+	background-image: url(../image/img101.jpg);
+}
+
+.photo102{
+	background-image: url(../image/img102.jpg);
+}
+
+
+
+
+.photo105{
+	background-image: url(../image/img105.jpg);
+} 
+
+.photo106{
+	background-image: url(../image/img106.jpg);
+}
+
+
+
+.photo108{
+	background-image: url(../image/img108.jpg);
+}
+
+
+
+.photo110{
+	background-image: url(../image/img110.jpg);
+}
+
+.photo111{
+	background-image: url(../image/img111.jpg);
+}
+
+.photo112{
+	background-image: url(../image/img112.jpg);
+}
+
+.photo113{
+	background-image: url(../image/img113.jpg);
+}
+
+.photo114{
+	background-image: url(../image/img114.jpg);
+}
+
+.photo115{
+	background-image: url(../image/img115.jpg);
+}
+
+.photo116{
+	background-image: url(../image/img116.jpg);
+}
+
+
+
+.photo118{
+	background-image: url(../image/img118.jpg);
+}
+
+.photo119{
+	background-image: url(../image/img119.jpg);
+}
+
+
+
+.photo121{
+	background-image: url(../image/img121.jpg);
+}
+
+.photo122{
+	background-image: url(../image/img122.jpg);
+}
+
+.photo123{
+	background-image: url(../image/img123.jpg);
+}
+
+.photo124{
+	background-image: url(../image/img124.jpg);
+} 
+
+.photo125{
+	background-image: url(../image/img125.jpg);
+}
+
+.photo126{
+	background-image: url(../image/img126.jpg);
+}
+
+.photo127{
+	background-image: url(../image/img127.jpg);
+}
+
+.photo128{
+	background-image: url(../image/img128.jpg);
+}
+
+.photo129{
+	background-image: url(../image/img129.jpg);
+}
+
+.photo130{
+	background-image: url(../image/img130.jpg);
+}
+
+.photo131{
+	background-image: url(../image/img131.jpg);
+}
+
+.photo132{
+	background-image: url(../image/img132.jpg);
+}
+
+
+
+.photo134{
+	background-image: url(../image/img134.jpg);
+}
+
+.photo135{
+	background-image: url(../image/img135.jpg);
+}
+
+
+
+.photo137{
+	background-image: url(../image/img137.jpg);
+}
+
+.photo138{
+	background-image: url(../image/img138.jpg);
+}
+
+.photo139{
+	background-image: url(../image/img139.jpg);
+}
+
+
+
+.photo141{
+	background-image: url(../image/img141.jpg);
+}
+
+
+
+
+
+/*h1:active{
+
+}*/
+
+/*div{
+	background: red;
+}
+
+.photo{
+	background: blue;
+}*/
